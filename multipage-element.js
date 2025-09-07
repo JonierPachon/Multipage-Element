@@ -1,33 +1,24 @@
-class specialHeader extends HTMLElement {
+class SpecialHeader extends HTMLElement {
    connectedCallback() {
-      this.innerHTML = `<p
-         style="
-            display: flex;
-            justify-content: space-around;
-            background: #eeeeee;
-            padding: 10px;
-         "
-      >
-         <a href="index.html">Home</a><a href="about.html">About</a
-         ><a href="contact.html">Contact</a>
-      </p>`;
+      this.innerHTML = `
+         <nav class="site-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+         </nav>
+      `;
    }
 }
 
-class specialFooter extends HTMLElement {
+class SpecialFooter extends HTMLElement {
    connectedCallback() {
-      this.innerHTML = `<p
-         style="
-            display: flex;
-            justify-content: space-around;
-            background: #eeeeee;
-            padding: 10px;
-         "
-      >
-         © Jonier Pachon, 2025
-      </p>`;
+      this.innerHTML = `
+         <footer class="site-footer">
+            © Jonier Pachon, 2025
+         </footer>
+      `;
    }
 }
 
-customElements.define("special-header", specialHeader);
-customElements.define("special-footer", specialFooter);
+customElements.define("special-header", SpecialHeader);
+customElements.define("special-footer", SpecialFooter);
