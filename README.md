@@ -1,3 +1,10 @@
+<p align="center">
+    <img src="https://github.com/JonierPachon/Multipage-Element/blob/main/README/pc1.png" alt="My Image 2" width="600" style="margin: 0 ;">
+    <img src="https://github.com/JonierPachon/Multipage-Element/blob/main/README/pc2.png" alt="My Image 1" width="450" style="margin: 0 100px;">
+    <img src="https://github.com/JonierPachon/Multipage-Element/blob/main/README/pc3.png" alt="My Image 2" width="450" style="margin: 0 200px;">
+</p>
+
+
 # Multipage Element
 
 A minimal example demonstrating how to reuse a navigation header and footer across multiple HTML pages using custom elements.
